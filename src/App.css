@@ -7,8 +7,12 @@
   height: 80px;
 }
 
+.brand-logo {
+  margin-left: -10vw;
+}
+
 .curs {
-  cursor: pointer
+  cursor: pointer;
 }
 
 #delete {
@@ -16,6 +20,10 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
