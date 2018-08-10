@@ -35,7 +35,7 @@ class Data extends Component {
     this.setState({
       imgLink: link
     });
-    fetch("http://localhost:4000/comic", {
+    fetch("http://https://marveldcserver.herokuapp.com/comic/comic", {
       method: "POST",
       headers: {
         ...headers,
@@ -74,7 +74,7 @@ class Data extends Component {
                 </CardTitle>
               }
               style={{
-                height: "100%"
+                height: "50%"
               }}
             >
               {this.state.data && (
